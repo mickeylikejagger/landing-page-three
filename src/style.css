@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-container {
+    color: rgb(50, 38, 8);
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    display: flex;
+    color: rgb(56, 41, 15);
+    background-color: rgb(246, 234, 219);
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: rgb(251, 244, 236);
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+    background-color: rgb(246, 234, 219);
+    flex: initial;
+    width: 300px;
+}
